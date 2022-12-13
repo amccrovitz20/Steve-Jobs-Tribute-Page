@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    font-family:  Helvetica, Arial, sans-serif;
+    background-color: #7d26cd;
+    color: #fff;
+}
+
+a {
+    color: yellow;
+}
+
+#title, #bio, #tribute-info, #link {
+    text-align: center;
+}
+
+#img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#image {
+    border-radius: 156px;
+    width: 300px;
+    max-width: 100%;
+    height: 300px;
+}
+
+#tribute-info {
+    padding: 0 76px;
+
+}
